@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+/* START HEADER */
+.header-retail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-close{
+    cursor: pointer;
+}
+
+.text-header p{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.line-header{
+    width: 359px;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+/* END HEADER */
+
+/* START IMAGE */
+.img-email{
+    width: 215px;
+    margin: 30px auto;
+}
+/* END IMAGE */
+
+/* START TITLE PAGE */
+.title{
+    width: 260px;
+    height: 50px;
+    margin: auto;
+}
+
+.title p:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title p:nth-child(2){
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 5px;
+}
+/* END TITLE PAGE */
+
+/* START INPUT EMAIL */
+.input-email{
+    width: 340px;
+    height: 29px;
+    margin: 75px auto 25px auto;
+    display: flex;
+}
+
+.input-email img{
+    position: absolute;
+}
+
+.input-email input{
+    width: 340px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-left: 30px;
+}
+
+.btn-email{
+    width: 340px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn-email button{
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 6px 10px 0px #00000014;
+    cursor: pointer;
+}
+
+.btn-email button:nth-child(1){
+    background-color: #FFC535;
+    color: #fff;
+}
+
+.btn-email button:nth-child(2){
+    background-color: #FFB600;
+    color: #fff;
+}
+
+.btn-email button:nth-child(3){
+    background-color: #fff;
+    border: 1px solid #FFC535;
+    color: #FFC535;
+}
+
+/* END INPUT EMAIL */

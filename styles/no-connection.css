@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    min-height: 100vh;
+    max-height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+}
+
+.img-animation{
+    width: 290px;
+    height: 290px;
+    margin: 80px auto 20px auto;
+}
+
+.img-animation img{
+    width: 288px;
+    height: 288px;
+}
+
+.text-error{
+    width: 295px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 115px;
+}
+
+.text-error p:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-error p:nth-child(2){
+    font-size: 16px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.button-cek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.button-cek button{
+    width: 250px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #FFC535;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

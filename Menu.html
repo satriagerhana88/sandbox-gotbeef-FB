@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Menu </title>
+    <link rel="stylesheet" href="Styles/menu.css">
+</head>
+<body>
+
+    <!-- START CONTAINER -->
+    <div class="container-retail">
+
+        <!-- START HEADER -->
+        <div class="header-retail">
+            <div class="back" onclick="back()">
+                <img src="Assets/icon/back.png" alt="">
+            </div>
+            <div class="logo">
+                <div class="container-img-retail">
+                    <img src="Assets/retail.png" alt="">
+                </div>
+     
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- START SEARCH -->
+        <div class="input-search">
+            <div class="container-search">
+                <img src="Assets/icon/search.png" alt="">
+            </div>
+            <input class="input-field" type="text" placeholder="Cari produk pilihanmu disini">
+        </div>
+        <!-- END SEARCH -->
+
+        <!-- START BANNER -->
+        <div class="banner-home">
+            <img src="Assets/banner.png" alt="">
+            <div class="next-banner">
+                <div class="next-1"></div>
+                <div class="next-1"></div>
+                <div class="next-2"></div>
+                <div class="next-1"></div>
+                <div class="next-1"></div>
+            </div>
+        </div>
+        <!-- END BANNER -->
+
+        <!-- START Card Kategori -->
+        <div class="container-categori">
+            <div class="text-categori">
+                <p>Kategori</p>
+                <p>Lihat Semua</p>
+            </div>
+
+            <div class="card-categori">
+
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/makanan.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Makanan</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/aneka-mie.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Aneka Mie</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/aneka-sayur.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Aneka Sayur</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/seafood.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Seafood</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card-categori">
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/kopi.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Kopi</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/juice.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Juice</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/makanan-ringan.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Cemilan</p>
+                    </div>
+                </a>
+                <a href="Detail-Kategori.html">
+                    <div class="artikel-card">
+                        <div class="card">
+                            <div class="icon-card">
+                                <img src="Assets/icon/kue.svg" alt="">
+                            </div>
+                        </div>
+                        <p>Kue</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+         <!-- END Card Kategori -->
+
+         <!-- START CARD PRODUK -->
+        <div class="container-categori">
+            <div class="text-categori">
+                <p>Produk Terbaru</p>
+                <p onclick="lihatSemua()">Lihat Semua</p>
+            </div>
+
+            <div class="card-produk">
+
+                <div class="produk-card">
+                    <div class="img-produk satu">
+                        <div class="diskon">
+                            <p>Diskon</p>
+                            <p>20%</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="text-card">
+                            <p>AYAM GORENG KOMPLIT</p>
+                            <p>Komplit dengan lalapan, tempe goreng dan sambal</p>
+                        </div>
+                        <div class="rate-price">
+                            <div class="before-diskon">
+                                <s>Rp. 35.000</s>
+                            </div>
+                            <div class="harga">
+                                <div class="rate">
+                                    <p>Harga</p>
+                                </div>
+                                <div class="price">
+                                    <p>Rp. 28.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produk-card">
+                    <div class="img-produk dua">
+                        <div class="diskon">
+                            <p>Diskon</p>
+                            <p>9%</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="text-card">
+                            <p>JUICE MANGGA KHAS THAILAND</p>
+                            <p>Juice mangga dari thailand dari buah pilihan</p>
+                        </div>
+                        <div class="rate-price">
+                            <div class="before-diskon">
+                                <s>Rp. 20.000</s>
+                            </div>
+                            <div class="harga">
+                                <div class="rate">
+                                    <p>Harga</p>
+                                </div>
+                                <div class="price">
+                                    <p>Rp. 18.200</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produk-card">
+                    <div class="img-produk tiga">
+                        <!-- <div class="diskon">
+                            <p>Diskon</p>
+                            <p>35%</p>
+                        </div> -->
+                    </div>
+                    <div class="desc">
+                        <div class="text-card">
+                            <p>KUE LUMPUR KHAS YOGYAKARTA</p>
+                            <p>Kue lumpur nangka dengan toping kismis</p>
+                        </div>
+                        <div class="rate-price">
+                            <div class="before-diskon">
+                                <!-- <s>Rp. 20.000</s> -->
+                            </div>
+                            <div class="harga">
+                                <div class="rate">
+                                    <p>Harga</p>
+                                </div>
+                                <div class="price">
+                                    <p>Rp. 12.750</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produk-card">
+                    <div class="img-produk empat">
+                        <div class="diskon">
+                            <p>Diskon</p>
+                            <p>35%</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="text-card">
+                            <p>SNACK LATE JULY</p>
+                            <p>Jalapeno dan Lime Original. Berat 100gr.</p>
+                        </div>
+
+                        <div class="rate-price">
+                            <div class="before-diskon">
+                                <s>Rp. 55.000</s>
+                            </div>
+                            <div class="harga">
+                                <div class="rate">
+                                    <p>Harga</p>
+                                </div>
+                                <div class="price">
+                                    <p>Rp. 35.750</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Button  -->
+            <div class="pesanan-saya" onclick="cart()">
+                <div class="cart-detail">
+                    <div class="cart">
+                        <img src="Assets/icon/cart.png" alt="">
+                    </div>
+                    <div class="detail">
+                        <p>2 Item</p>
+                        <p>Cheese burger, Got Beef</p>
+                    </div>
+                </div>
+
+                <div class="cart-price">
+                    <p>Rp 75.000</p>
+                </div>
+            </div>
+             <!-- Button  -->
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+
+    <script>
+        function back() {
+            window.location.replace('/Home.html')
+        }
+        function lihatSemua() {
+            window.location.replace('/Lihat-Semua.html')
+        }
+        function cart() {
+            window.location.replace('/cart.html')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,589 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+/* START HEADER */
+.header-retail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-close{
+    cursor: pointer;
+}
+
+.text-header p{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.line-header{
+    width: 359px;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* END HEADER */
+
+/* START SELECT PESANAN */
+.pilih-pesanan{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px auto 0 auto;
+}
+
+.jenis-pesanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jenis-pesanan img{
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-right: 10px;
+}
+
+.logo-pesanan{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pilih-jenis-pesanan button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropbtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    min-width: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 36.5%;
+    padding: 10px;
+    /* margin-top: -20px; */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-content .title-content-dropdown{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content .title-content-dropdown img{
+    margin-right: 10px;
+}
+
+.dropdown-content img{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+/* END SELECT PESANAN */
+
+
+/* START ALAMAT */
+.alamat{
+    height: 145px;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.alamat .alamat-pengirim{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail-alamat{
+    height: 110px;
+    display: flex;
+}
+
+.alamat-lengkap{
+    margin-left: 10px;
+}
+
+.nama-penerima {
+    display: flex;
+    align-content: center;
+    margin-bottom: 5px;
+}
+.alamat-lengkap .nama-penerima p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.nama-penerima button{
+    width: 48px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFEE8E;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+
+.alamat-lengkap p{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.btn-pilih-alamat{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-pilih-alamat button{
+    width: 113px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #FFC535;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* END ALAMAT */
+
+.line{
+    width: 360px;
+    border: 1px solid #ccc;
+
+}
+
+/*  START CONTAINER ORDER */
+.container-order{
+    width: 340px;
+    height: 380px;
+    padding: 10px 0;
+    margin: 20px auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+}
+
+.container-order::-webkit-scrollbar{
+    width: 0px;
+}
+
+.card-container-order{
+    width: 320px;
+    height: auto;
+    margin: auto;
+}
+
+.card-container-order .title-order{
+    margin-bottom: 10px;
+}
+
+.card-container-order .title-order p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title-store{
+    width: 91px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-store p:nth-child(1){
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.detail-store p:nth-child(2){
+    font-size: 10px;
+    color: #949494;
+}
+
+.detail-order{
+    width: 340px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.img-produk img{
+    width: 60px;
+    height: 60px;
+}
+
+.title-produk{
+    width: 263px;
+    margin-left: 10px;
+}
+.title-produk p{
+    margin: 4px 0;
+}
+
+.title-produk p:nth-child(1),
+.title-produk p:nth-child(3){
+    font-size: 16pxs;
+    font-weight: bold;
+}
+
+.title-produk p:nth-child(2){
+    font-size: 12px;
+    font-weight: 100;
+    color: #ccc;
+}
+
+.pengiriman{
+    height: 95px;
+    margin-top: 15px;
+}
+
+.pengiriman .title-pengiriman{
+    margin-bottom: 5px;
+}
+
+.pengiriman .title-pengiriman p{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.btn-pilih-pengiriman button{
+    width: 320px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FFC535;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.info-pengiriman{
+}
+
+.info-pengiriman p{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.kurir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.jenis-kurir{
+    display: flex;
+    align-items: center;
+}
+
+.jenis-kurir p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 5px;
+}
+
+.kurir .estimasi{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.line-order{
+    width: 95%;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+/*  END CONTAINER ORDER */
+
+
+
+/* START BUTTON CHECKOUT */
+.pesanan-saya{
+    height: 50px;
+    width: 340px;
+    background: #FFC535;
+    margin: 10px auto 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.button-pesanan{
+    text-decoration: none;
+}
+/* END BUTTON CHECKOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START MODALS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    width: 320px;
+    height: auto;
+    padding: 10px;
+}
+
+.title-modal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-modal p{
+    margin-left: 30%;
+    font-weight: bold;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.line-modal{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.card-alamat{
+    width: 320px;
+    height: 145px;
+    border-radius: 5px;
+    border: 1px solid #FFC535;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-alamat-2{
+    width: 320px;
+    height: 145px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-alamat{
+    width: 300px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.alamat-cust{
+    width: 227px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.alamat-cust .title-alamat-cust p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #949494;
+}
+
+.title-alamat-cust{
+    width: 160px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-alamat-cust button{
+    width: 48px;
+    height: 16px;
+    border: none;
+    outline: none;
+    background-color: #FFEE8E;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.alamat-lengkap{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.alamat-lengkap p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.pin-point{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pin-point .pin{
+    display: flex;
+    align-items: center;
+}
+
+.pin-point .pin p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #FFC535;
+}
+
+.line-pin{
+    height: 10px;
+    border: 1px solid #ccc;
+}
+
+.ubah-alamat p{
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #FFC535;
+}
+
+.btn-pilihan button{
+    width: 64px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #FFC535;
+    box-shadow: 0px 2px 2px 0px #00000040;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/* END MODALS */

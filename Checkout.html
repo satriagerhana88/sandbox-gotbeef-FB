@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Checkout</title>
+    <link rel="stylesheet" href="styles/checkout.css">
+</head>
+<body>
+    <div class="container">
+         <!-- START HEADER -->
+         <div class="header-retail">
+            <div class="icon-close">
+                <a href="cart.html">
+                    <img src="Assets/icon/back.png" alt="">
+                </a>
+            </div>
+            <div class="text-header">
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
+        </div>
+        <div class="line-header"></div>
+        <!-- END HEADER -->
+
+        <!-- START SELECT PESANAN -->
+        <div class="pilih-pesanan">
+            <div class="jenis-pesanan">
+                <img src="Assets/icon/pesanan-antar.svg" alt="">
+                <p>Pesanan Antar</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <img src="Assets/icon/arrow-pilih-pesanan.svg" alt="">
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/pesanan-antar.svg" alt="">
+                            <p>Pesanan Antar</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/Terima-ditoko.svg" alt="">
+                            <p>Terima di Toko</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/pickup point.svg" alt="">
+                            <p>Terima di pickup point</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- END SELECT PESANAN -->
+
+        <!-- START ALAMAT -->
+        <div class="alamat">
+            <p class="alamat-pengirim">Alamat Pengiriman</p>
+            <div class="detail-alamat">
+                <div class="icon-alamat">
+                    <img src="Assets/icon/maps.svg" alt="">
+                </div>
+                <div class="alamat-lengkap">
+                    <div class="nama-penerima">
+                        <p>Hindami (Rumah)</p>
+                        <button>Utama</button>
+                    </div>
+                    <p>081313129535</p>
+                    <p>Jalan. Margakencana 1 (Margawangi Selatan II) No. 159, Margacinta, Kota Bandung</p>
+                    <div class="btn-pilih-alamat">
+                        <button id="myBtn">Pilih Alamat Lain</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END ALAMAT -->
+        <div class="line"></div>
+
+        <!-- START CONTAINER ORDER -->
+        <div class="container-order">
+            <div class="card-container-order">
+                <div class="title-order">
+                    <p>Pesanan 1</p>
+                </div>
+
+                <div class="title-store">
+                    <img src="Assets/icon/store-herbalcare.svg" alt="">
+                    <div class="detail-store">
+                        <p>Herbal Care</p>
+                        <p>Jakarta</p>
+                    </div>
+                </div>
+
+                <div class="detail-order">
+                    <div class="img-produk">
+                        <img src="Assets/herbal-nature.png" alt="">
+                    </div>
+                    <div class="title-produk">
+                        <p>Herbal Essences Argan Oil of Morocco Shampoo</p>
+                        <p>1 Barang (110 ml)</p>
+                        <p>Rp 145.000</p>
+                    </div>
+                </div>
+
+                <div class="pengiriman">
+                    <div class="title-pengiriman">
+                        <p>Pilih Pengiriman</p>
+                    </div>
+                    <div class="btn-pilih-pengiriman dropdown">
+                        <button class="dropbtn">
+                            <p>Pilih Pengiriman</p>
+                            <img src="Assets/icon/arrow-down.svg">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <div class="title-content-dropdown">
+                                    <img src="Assets/icon/pesanan-antar.svg" alt="">
+                                    <p>Pesanan Antar</p>
+                                </div>
+                                <input type="radio">
+                            </a>
+                            <a href="#">
+                                <div class="title-content-dropdown">
+                                    <img src="Assets/icon/Terima-ditoko.svg" alt="">
+                                    <p>Terima di Toko</p>
+                                </div>
+                                <input type="radio">
+                            </a>
+                            <a href="#">
+                                <div class="title-content-dropdown">
+                                    <img src="Assets/icon/pickup point.svg" alt="">
+                                    <p>Terima di pickup point</p>
+                                </div>
+                                <input type="radio">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-pengiriman">
+                        <p>Kurir Pilihan</p>
+                        <div class="kurir">
+                            <div class="jenis-kurir">
+                                <img src="/Assets/icon/gosend.svg" alt="">
+                                <p>GoSend (Rp. 9.500)</p>
+                            </div>
+                            <p class="estimasi">Estimasi Waktu 11 Menit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-order"></div>
+
+            <div class="card-container-order">
+                <div class="title-order">
+                    <p>Pesanan 2</p>
+                </div>
+
+                <div class="title-store">
+                    <img src="Assets/icon/store-balifarm.svg" alt="">
+                    <div class="detail-store">
+                        <p>Balifarm</p>
+                        <p>Jakarta</p>
+                    </div>
+                </div>
+
+                <div class="detail-order">
+                    <div class="img-produk">
+                        <img src="Assets/pop-corn.png" alt="">
+                    </div>
+                    <div class="title-produk">
+                        <p>Korean Colors Mushroom Popcorn Korean Kimchi / Spicy Curry</p>
+                        <p>1 Barang (300 gr)</p>
+                        <p>Rp 70.000</p>
+                    </div>
+                </div>
+
+                <div class="line-order"></div>
+
+                <div class="detail-order">
+                    <div class="img-produk">
+                        <img src="Assets/stick-premium.png" alt="">
+                    </div>
+                    <div class="title-produk">
+                        <p>Tokezi Cheese Stick Premium Tanpa Msg & Pengawet</p>
+                        <p>1 Barang (70 gr)</p>
+                        <p>Rp 25.000</p>
+                    </div>
+                </div>
+
+                <div class="pengiriman">
+                    <div class="title-pengiriman">
+                        <p>Pilih Pengiriman</p>
+                    </div>
+                    <div class="btn-pilih-pengiriman">
+                        <button>
+                            <p>Pilih Pengiriman</p>
+                            <img src="Assets/icon/arrow-down.svg">
+                        </button>
+                    </div>
+                    <div class="info-pengiriman">
+                        <p>Kurir Pilihan</p>
+                        <div class="kurir">
+                            <div class="jenis-kurir">
+                                <img src="/Assets/icon/grabexpress.svg" alt="">
+                                <p>GrabExpress (Rp. 9.500)</p>
+                            </div>
+                            <p class="estimasi">Estimasi Waktu 11 Menit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- END CONTAINER ORDER -->
+
+        <!-- START BUTTON CHECKOUT -->
+            <button class="pesanan-saya" onclick="sukses()">
+                Bayar
+            </button>
+        <!-- END BUTTON CHECKOUT -->
+
+    </div>
+
+
+  <!-- START MODALS -->
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <div class="title-modal">
+            <p>Daftar Alamat</p>
+            <span class="close">&times;</span>
+        </div>
+        <div class="line-modal"></div>
+        <div class="card-alamat">
+            <div class="container-alamat">
+                <div class="alamat-cust">
+                    <div class="aside-alamat-cust">
+                        <div class="title-alamat-cust">
+                            <p>Hindami (Rumah)</p>
+                            <button>Utama</button>
+                        </div>
+                        <div class="alamat-lengkap">
+                            <p>081313129535</p>
+                            <p>Jalan. Margakencana 1 (Margawangi Selatan II) No. 159, Margacinta, Kota Bandung</p>
+                        </div>
+                    </div>
+                    <div class="pin-point">
+                        <div class="pin">
+                            <img src="Assets/icon/icon-pin-map.svg" alt="">
+                            <p>Sudah Pinpoint</p>
+                        </div>
+                        <div class="line-pin"></div>
+                        <div class="ubah-alamat">
+                            <p>Ubah Alamat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-pilihan">
+                    <img src="Assets/icon/icon-checklist.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="card-alamat-2">
+            <div class="container-alamat">
+                <div class="alamat-cust">
+                    <div class="aside-alamat-cust">
+                        <div class="title-alamat-cust">
+                            <p>Hindami (Rumah)</p>
+                            <button>Utama</button>
+                        </div>
+                        <div class="alamat-lengkap">
+                            <p>081313129535</p>
+                            <p>Jalan. Margakencana 1 (Margawangi Selatan II) No. 159, Margacinta, Kota Bandung</p>
+                        </div>
+                    </div>
+                    <div class="pin-point">
+                        <div class="pin">
+                            <img src="Assets/icon/icon-pin-map.svg" alt="">
+                            <p>Sudah Pinpoint</p>
+                        </div>
+                        <div class="line-pin"></div>
+                        <div class="ubah-alamat">
+                            <p>Ubah Alamat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-pilihan">
+                    <button>Pilih</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-alamat-2">
+            <div class="container-alamat">
+                <div class="alamat-cust">
+                    <div class="aside-alamat-cust">
+                        <div class="title-alamat-cust">
+                            <p>Hindami (Rumah)</p>
+                            <!-- <button>Utama</button> -->
+                        </div>
+                        <div class="alamat-lengkap">
+                            <p>081313129535</p>
+                            <p>Jalan. Margakencana 1 (Margawangi Selatan II) No. 159, Margacinta, Kota Bandung</p>
+                        </div>
+                    </div>
+                    <div class="pin-point">
+                        <div class="pin">
+                            <img src="Assets/icon/icon-pin-map.svg" alt="">
+                            <p>Sudah Pinpoint</p>
+                        </div>
+                        <div class="line-pin"></div>
+                        <div class="ubah-alamat">
+                            <p>Ubah Alamat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-pilihan">
+                    <button>Pilih</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</div>
+<!-- END MODALS -->
+
+
+<script src="script/checkout.js"></script>
+
+<script>
+    function sukses() {
+           window.location.replace('/Notifikasi-Sukses.html')
+       }
+</script>
+
+</body>
+</html>

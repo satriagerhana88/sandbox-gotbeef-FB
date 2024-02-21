@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Detail Produk</title>
+    <link rel="stylesheet" href="../style-blankslate/blank-slate-detail-produk.css">
+</head>
+<body>
+    <div class="container-retail">
+
+        <!-- START BANNER -->
+        <div class="banner-header">
+            <div class="img-banner">
+                <div class="text-banner">
+                    <a href="Blank-Slate-Detail-Kategori.html">
+                        <img src="../../Assets/icon/back.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- END BANNER -->
+
+        <!-- START TITLE HEADER -->
+        <div class="title-produk">
+            <div class="header-produk">
+                <p>The OG GOT Beef</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet. </p>
+            </div>
+        </div>
+        <!-- END TITLE HEADER -->
+
+        <!-- START ADD ON -->
+        <div class="title-addon">
+            <p>Add-on</p>
+        </div>
+
+        <label class="container">
+            <div class="checkbox-label">
+                <p>Extra Petty</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.24.000</p> 
+            </div>
+        </label>
+
+        <label class="container">
+            <div class="checkbox-label">
+                <p>Extra Eggs</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.10.000</p> 
+            </div>
+        </label>
+        
+        <label class="container">
+            <div class="checkbox-label">
+                <p>French Fries</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.20.000</p> 
+            </div>
+        </label>
+        
+        <label class="container">
+            <div class="checkbox-label">
+                <p>Mashed Potato</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.20.000</p> 
+            </div>
+        </label>
+
+        <div class="title-addon">
+            <p>Drinks</p>
+        </div>
+
+        <label class="container">
+            <div class="checkbox-label">
+                <p>Cola</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.10.000</p> 
+            </div>
+        </label>
+
+        <label class="container">
+            <div class="checkbox-label">
+                <p>Milo</p>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </div>
+            <div class="harga-add-on">
+                <p>Rp.12.000</p> 
+            </div>
+        </label>
+        <!-- END ADD ON -->
+
+        <!-- START NOTES -->
+        <div class="title-addon">
+            <p>Notes</p>
+        </div>
+
+        <div class="box-note">
+            <input type="text" placeholder="Notes">
+        </div>
+        <!-- END NOTES -->
+
+        <!-- START QUANTITY -->
+        <div class="quantity">
+            <button class="tambah" onclick="increment()">+</button>
+            <input id=jumlah type=number min=0 max=100 value="0">
+            <button class="tambah" onclick="decrement()">-</button>
+        </div>
+         <!-- END QUANTITY -->
+
+        <!-- START BUTTON PESANAN SAYA -->
+        <div class="pesanan-saya">
+            <div class="cart-detail">
+                <div class="detail">
+                    <p>Tambah Pesanan</p>
+                </div>
+            </div>
+
+            <div class="cart-price">
+                <p>Rp 75.000</p>
+            </div>
+        </div>
+        <!-- END BUTTON PESANAN SAYA -->
+
+    </div>
+    
+   <script src="../scripts/quantity.js"></script>
+</body>
+</html>

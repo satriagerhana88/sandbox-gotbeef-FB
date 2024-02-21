@@ -1,0 +1,605 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px 0;
+}
+
+
+/* START HEADER */
+.header-retail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-close{
+    cursor: pointer;
+}
+
+.text-header p{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.line-header{
+    width: 359px;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+/* END HEADER */
+
+/* START SELECT PESANAN */
+.pilih-pesanan{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px auto 0 auto;
+}
+
+.jenis-pesanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jenis-pesanan img{
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-right: 10px;
+}
+
+.logo-pesanan{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pilih-jenis-pesanan button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropbtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    min-width: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 37%;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-content .title-content-dropdown{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content .title-content-dropdown img{
+    margin-right: 10px;
+}
+
+.dropdown-content img{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+/* END SELECT PESANAN */
+
+.line{
+    width: 358px;
+    border: 1px solid #f1f1f1;
+    margin-top: 16px;
+}
+
+/*  START CONTAINER DETAIL PESANAN  */
+.container-pilih-pesanan{
+    width: 340px;
+    height: 135px;
+    margin: 24px auto 0 auto;
+}
+
+.btn-alamat{
+    width: 340px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFC535;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 4px 0px #0000002B;
+    cursor: pointer;
+}
+
+.btn-alamat:hover{
+    background-color: #f8cc5e;
+}
+
+.detail-pilih-pesanan{
+    width: 340px;
+    height: 68px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.detail-pilih-pesanan img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.title-alamat{
+    display: flex;
+    flex-direction: row;
+}
+
+.alamat .title-alamat p{
+    font-size: 12px;
+    color: #ccc;
+    margin-right: 4px;
+}
+
+.alamat .title-alamat button{
+    width: 48px;
+    height: 16px;
+    font-size: 12px;
+    background-color: #FFEE8E;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.alamat-lengkap p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+/*  END CONTAINER DETAIL PESANAN  */
+
+/* START PENGIRIMAN INSTANT */
+.container-pengiriman-instant{
+    padding: 0 10px;
+    margin-top: 24px;
+}
+.container-pengiriman-instant p{
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+
+.container-pengiriman-instant .pengiriman-instant{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-pengiriman-instant .pengiriman-instant .pilih-pengiriman{
+    display: flex;
+    align-items: center;
+}
+
+.container-pengiriman-instant .pengiriman-instant .pilih-pengiriman input{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+/* END PENGIRIMAN INSTANT */
+
+
+/* START CONTAINER DETAIL PESANAN */
+.container-detail-pesanan{
+    width: 360px;
+    height: 615px;
+    margin-top: 30px;
+}
+
+.title-pesanan{
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.title-pesanan p{
+    font-size: 16px;
+}
+
+.detail-pesanan{
+    width: 360px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.title-detail-pesanan{
+    height: 32px;
+    background-color: #FFEE8E;
+    border: 1px solid transparent;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-detail-pesanan p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.order{
+    width: 340px;
+    height: 66px;
+    margin: 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+
+.title-order{
+    height: 66px;
+}
+
+.title-order p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.title-order p:nth-child(2),
+.title-order p:nth-child(3),
+.title-order p:nth-child(4){
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+.harga-order{
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.harga-order p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #545454;
+}
+
+.harga-order .harga s{
+    font-size: 10px;
+    color: #949494;
+    display: flex;
+    justify-content: right;
+}
+
+.harga-order .harga p{
+    text-align: right;
+    margin-bottom: 2px;
+}
+
+.quantity{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+  }
+  
+  .quantity input{
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /* END QUANTITY */
+  
+  
+  .tambah{
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: #FFC535;
+    font-size: 15px;
+    margin-left: -15px;
+    cursor: pointer;
+  }
+
+.line-pesanan{
+    width: 359px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #f8cc5e;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #f8cc5e;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(23px);
+}
+  
+.slider.round {
+    border-radius: 20px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+/* END CONTAINER DETAIL PESANAN */
+
+
+/* START METODE PEMBAYARAN */
+
+.container-metode-pembayaran{
+    height: auto;
+    margin: 20px 10px;
+}
+
+.container-metode-pembayaran .pilih-metode{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.pilih-metode .btn-pilih{
+    width: 68px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #c4c4c4;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #000;
+    font-size: 10px;
+}
+
+.pilih-metode p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container-metode-pembayaran .selected-metode{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container-metode-pembayaran .selected-metode p{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #949494;
+}
+
+.container-metode-pembayaran .btn-pesan{
+    width: 340px;
+    height: 50px;
+    background-color: #f8cc5e;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+}
+
+/* START BOTTOM SHEET */
+#overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+
+#overlay.active{
+    display: flex;
+}
+
+#bottomSheet{
+    background-color: #fff;
+    width: 310px;
+    height: 410px;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+    padding: 24px;
+}
+
+#bottomSheet.active{
+    transform: translateY(0);
+}
+
+.title-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bottom p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-bottom span{
+    cursor: pointer;
+}
+
+.container-payment{
+    margin: 20px auto;
+}
+
+.select-payment{
+    display: flex;
+}
+
+.select-payment .card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.select-payment .card p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* END BOTTOM SHEET */
+
+
+/* START BOTTOM SHEET */
+#overlay2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+
+#overlay2.active{
+    display: flex;
+}
+
+#bottomSheet2{
+    background-color: #fff;
+    width: 310px;
+    height: 285px;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+    padding: 24px;
+}
+
+#bottomSheet2.active{
+    transform: translateY(0);
+}
+
+.title-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bottom p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-bottom span{
+    cursor: pointer;
+}
+
+
+/* END BOTTOM SHEET */
+
+

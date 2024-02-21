@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* START CONTAINER */
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+}
+
+/* END CONTAINER */
+
+.header{
+    /* background: #FFC535; */
+    background-image: url('/Assets/bg-list.png');
+    background-size: cover;
+    height: 125px;
+    margin: -10px;
+}
+
+.container-header{
+  width: 241px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+.container-header img{
+    cursor: pointer;
+}
+
+.container-header p{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu-filter{
+    width: 348px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-filter::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.button-filter{
+    display: flex;
+}
+   
+.button-filter button{
+    width: 85px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #FFEE8E;
+    margin-right: 11px;
+}
+
+.button-filter .button-outline{
+    width: 85px;
+    height: 30px;
+    background-color: transparent;
+    border: 1.5px solid #FFEE8E;
+    margin-right: 11px;
+    font-weight: normal;
+}
+
+.img-blank-slate{
+    width: 127px;
+    margin: 116px auto 10px auto;
+}
+
+.title p{
+    text-align: center;
+    font-size: 14px;
+    color: #949494;
+}
+
+.btn-pesan{
+    width: 150px;
+    height: 45px;
+    margin: 30px auto;
+}
+
+.btn-pesan button{
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #FFC535;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0px 6px 10px 0px #00000014;
+}
+
+
+

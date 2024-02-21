@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Cart</title>
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+    <div class="container">
+         <!-- START HEADER -->
+         <div class="header-retail">
+            <div class="icon-close">
+                <a href="Detail-Kategori.html">
+                    <img src="Assets/icon/back.png" alt="">
+                </a>
+            </div>
+            <div class="text-header">
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
+        </div>
+        <div class="line-header"></div>
+
+        <div class="text-order">
+            <p>Order Saya</p>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- START CART -->
+        <div class="container-scroll-cart">
+            <div class="cart-pesanan-saya">
+                <div class="store-cart">
+                    <input type="checkbox">
+                    <p>Herbal Care</p>
+                </div>
+    
+                <div class="container-cart-pesanan-saya">
+                    <div class="check-pesanan-saya">
+                       <div class="checkbox-order">
+                            <input type="checkbox">
+                       </div>
+                       <div class="img-order">
+                            <img src="Assets/herbal-nature.png" alt="">
+                       </div>
+                       <div class="title-order">
+                            <p>Herbal nature Shampoo Anggur</p>
+                            <p>Rp. 145.000</p>
+                            <div class="quantity-hapus">
+                                <div class="quantity">
+                                    <button class="tambah" onclick="increment()">+</button>
+                                    <input id=jumlah type=number min=0 max="100" value="1">
+                                    <button class="tambah" onclick="decrement()">-</button>
+                                </div>
+                                <div class="icon-hapus">
+                                   <button><img src="Assets/icon/trash.svg" alt=""></button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="noted">
+                        <p>Catatan :</p>
+                        <p>Untuk 2 yang free nya, minta rasa savory dan rasa sweet</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="cart-pesanan-saya">
+                <div class="store-cart">
+                    <input type="checkbox">
+                    <p>Bali Farm</p>
+                </div>
+    
+                <div class="container-cart-pesanan-saya">
+                    <div class="check-pesanan-saya">
+                       <div class="checkbox-order">
+                            <input type="checkbox">
+                       </div>
+                       <div class="img-order">
+                            <img src="Assets/pop-corn.png" alt="">
+                       </div>
+                       <div class="title-order">
+                            <p>Korean Colors Mushroom Pop ...</p>
+                            <p>Rp. 35.000</p>
+                            <div class="quantity-hapus">
+                                <div class="quantity">
+                                    <button class="tambah" onclick="increment()">+</button>
+                                    <input id=jumlah type=number min=0 max="100" value="1">
+                                    <button class="tambah" onclick="decrement()">-</button>
+                                </div>
+                                <div class="icon-hapus">
+                                   <button><img src="Assets/icon/trash.svg" alt=""></button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="noted">
+                        <p>Tulis Catatan</p>
+                    </div>
+                </div>
+                <div class="line-cart"></div>
+                <div class="container-cart-pesanan-saya">
+                    <div class="check-pesanan-saya">
+                       <div class="checkbox-order">
+                            <input type="checkbox">
+                       </div>
+                       <div class="img-order">
+                            <img src="Assets/stick-premium.png" alt="">
+                       </div>
+                       <div class="title-order">
+                            <p>Tokezi Cheese Stick Premium....</p>
+                            <div class="price">
+                                <p>Rp. 25.000</p>
+                                <p><s>Rp. 55.000</s></p>
+                            </div>
+                            <div class="quantity-hapus">
+                                <div class="quantity">
+                                    <button class="tambah" onclick="increment()">+</button>
+                                    <input id=jumlah type=number min=0 max="100" value="1">
+                                    <button class="tambah" onclick="decrement()">-</button>
+                                </div>
+                                <div class="icon-hapus">
+                                   <button><img src="Assets/icon/trash.svg" alt=""></button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="noted">
+                        <p>Tulis Catatan</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="cart-pesanan-saya">
+                <div class="store-cart">
+                    <input type="checkbox">
+                    <p>Fresh Healty</p>
+                </div>
+    
+                <div class="container-cart-pesanan-saya">
+                    <div class="check-pesanan-saya">
+                       <div class="checkbox-order">
+                            <input type="checkbox">
+                       </div>
+                       <div class="img-order">
+                            <img src="Assets/fish.png" alt="">
+                       </div>
+                       <div class="title-order">
+                            <p>Ikan Tenggiri Steak Fillet Premi...</p>
+                            <p>Rp. 90.000</p>
+                            <div class="quantity-hapus">
+                                <div class="quantity">
+                                    <button class="tambah" onclick="increment()">+</button>
+                                    <input id=jumlah type=number min=0 max="100" value="1">
+                                    <button class="tambah" onclick="decrement()">-</button>
+                                </div>
+                                <div class="icon-hapus">
+                                   <button><img src="Assets/icon/trash.svg" alt=""></button>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="noted">
+                        <p>Tulis Catatan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- START ADD QUESTION -->
+                <div class="question-add">
+                    <div class="text-question">
+                        <p>Butuh tambah lagi?</p>
+                        <p>Kamu bisa tambah orderan dengan klik button di samping</p>
+                    </div>
+                    <button>Tambah Menu Lain</button>
+                </div>
+                <div class="line-header"></div>
+            <!-- END ADD QUESTION -->
+        </div>
+        <!-- END CART -->
+
+          <!-- START BUTTON CHECKOUT -->
+          <a href="Metode-Pembayaran.html" class="button-pesanan">
+            <button class="pesanan-saya">
+                Checkout
+            </button>
+        </a>
+        <!-- END BUTTON CHECKOUT -->
+    </div>
+</body>
+</html>

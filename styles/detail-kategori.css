@@ -1,0 +1,492 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+/* START BANNER */
+.banner-header{
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 130px;
+    display: flex;
+    background-image: url(/Assets/banner-detail-categori.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-banner{
+    padding: 10px;
+}
+
+
+.text-banner p:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.text-banner p:nth-child(3){
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}
+/* END BANNER */
+
+
+/* START FILTER */
+.filter{
+    margin: 10px;
+   
+}
+.buttonfilter{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    background: #FFEE8E;
+    cursor: pointer;
+}
+
+button p{
+    margin: 0 5px;
+    font-size: 12px;
+}
+/* END FILTER */
+
+/* START MODAL FILTER */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    margin-top: -180px;
+    width: 360px; 
+    height: 800px;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px 10px 10px 10px;
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.button-filter{
+    width: 302px;
+    height: 35px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    border-radius: 50px;
+    display: flex;
+    background-color: #FFEE8E;
+
+}
+
+.button-kategori{
+    width: 152px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    z-index: 1;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+
+}
+
+.button-brand{
+    background-color: transparent;
+    border: none;
+    width: 152px;
+    height: 35px;
+}
+
+.menu-retail-kategori{
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-top: 50px;
+   
+}
+
+.menu-retail-kategori a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #010101;
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    margin: 10px 0;
+}
+  
+.menu-retail-kategori a:hover, .dropdown-btn:hover {
+    color: #FFC535;
+}
+/* END MODAL FILTER */
+
+
+/* START KATEGORI */
+.title-category{
+    width: 360px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    background: #FFC535;
+    margin-bottom: 10px;
+}
+
+.title-category p{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #fff;
+}
+/* END KATEGORI */
+
+
+/* START CARD KATEGORI PRODUK */
+.scroll-detail-produk{
+    height: 650px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: -1;
+}
+
+.scroll-detail-produk::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.card-detail-categori{
+    width: 340px;
+    height: 107px;
+    margin: 10px 10px 33px 10px;
+}
+
+.detail-percategori{
+    display: flex;
+}
+
+.card-produk{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-produk{
+    padding-left: 10px;
+}
+
+.title-produk p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.title-produk p:nth-child(2){
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.buttonadd{
+    width: 62px;
+    height: 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button-custome {
+    text-decoration: none;
+}
+
+
+.line{
+    width: 340px;
+    border: 1px solid #ccc;
+    margin-top: 35px;
+}
+
+.line-1{
+    width: 320px;
+    border: 1px solid #ccc;
+    margin: 3px;
+}
+
+.button-pesanan{
+    text-decoration: none;
+}
+
+.custome{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.custom p{
+    text-decoration: none;
+}
+
+/* END CARD KATEGORI PRODUK */
+
+
+/* START BUTTON CART */
+.pesanan-saya{
+    height: 50px;
+    width: 320px;
+    background: #FFC535;
+    margin: 10px auto 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-detail{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cart-detail .detail{
+    text-align: left;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail p:nth-child(1){
+    font-size: 14px;
+    color: #010101;
+    font-weight: bold;
+}
+
+.detail p:nth-child(2){
+    font-size: 10px;
+    color: #5B5B5B;
+    margin-top: 2px;
+}
+
+.cart-price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #010101;
+}
+/* END BUTTON CART */
+
+
+
+/* START BOTTOM SHEET */
+#overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+
+#overlay.active{
+    display: flex;
+}
+
+#bottomSheet{
+    background-color: #fff;
+    width: 360px;
+    height: 550px;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+#bottomSheet.active{
+    transform: translateY(0);
+}
+
+.img-detail-produk{
+    width: 360px;
+    height: 221px;
+    border-radius: 20px 20px 0 0;
+    background-image: url('/Assets/detail\ produk.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.title-detail-produk{
+    width: 226px;
+    height: 107px;
+    margin-left: 10px;
+}
+
+.title-detail-produk p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-detail-produk li{
+    font-size: 14px;
+    color: #949494;
+    font-weight: bold;
+}
+
+.title-detail-produk ul{
+    padding: 0 20px;
+}
+
+.title-detail-produk .desc{
+    width: 340px;
+    height: 32px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.title-detail-produk .desc p{
+    font-size: 12px;
+    color: #949494;
+    line-height: 16px;
+}
+
+.price-quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -28px 20px 0 20px;
+}
+
+.price-quantity p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tambah{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: #FFC535;
+    font-size: 15px;
+    margin-left: -15px;
+}
+
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.quantity input{
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.notes input{
+width: 340px;
+height: 64px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+margin: auto;
+border: 1px solid #ccc;
+}
+
+.notes input::placeholder{
+    padding: 5px 10px;
+}
+
+.pesanan-saya-1{
+    height: 50px;
+    width: 340px;
+    background: #FFC535;
+    margin: 10px auto 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.button-pesanan-1{
+    text-decoration: none;
+}
+/* END BOTTOM SHEET */

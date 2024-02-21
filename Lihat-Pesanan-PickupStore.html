@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Lihat Pembayaran</title>
+    <link rel="stylesheet" href="styles/lihat-pesanan-pickupstore.css">
+</head>
+<body>
+    <div class="container-retail">
+
+        <!-- START HEADER -->
+        <div class="header-retail">
+            <div class="icon-close">
+                <a href="Detail-Kategori.html">
+                    <img src="Assets/icon/back.png" alt="">
+                </a>
+            </div>
+            <div class="text-header">
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
+        </div>
+        <div class="line-header"></div>
+
+        <div class="text-order">
+            <p>Order Saya</p>
+        </div>
+        <!-- END HEADER -->
+
+
+        <!-- START DETAIL PESANAN -->
+        <div class="title-pesanan-saya">
+            <p>Herbal Care</p>
+        </div>
+
+        <div class="produk-pesanan">
+            <div class="detail-pesanan">
+                <p>Herbal Nature Shampoo Anggur</p>
+                <p>Rp. 145.000</p>
+            </div>
+            <div class="quantity">
+                <button class="tambah" onclick="increment()">+</button>
+                <input id=jumlah type=number min=0 max=100 value="0">
+                <button class="tambah" onclick="decrement()">-</button>
+            </div>
+        </div>
+        
+        <div class="title-pesanan-saya">
+            <p>Bali Farm</p>
+        </div>
+
+        <div class="produk-pesanan">
+            <div class="detail-pesanan">
+                <p>Popcorn Kimchi</p>
+                <p>Rp. 35.000</p>
+            </div>
+            <div class="quantity">
+                <button class="tambah" onclick="increment()">+</button>
+                <input id=jumlah type=number min=0 max=100 value="0">
+                <button class="tambah" onclick="decrement()">-</button>
+            </div>
+        </div>
+        <div class="line-header"></div>
+        <div class="produk-pesanan">
+            <div class="detail-pesanan">
+                <p>Popcorn Kimchi</p>
+                <p>Rp. 35.000</p>
+            </div>
+            <div class="quantity">
+                <button class="tambah" onclick="increment()">+</button>
+                <input id=jumlah type=number min=0 max=100 value="0">
+                <button class="tambah" onclick="decrement()">-</button>
+            </div>
+        </div>
+        <div class="line-header"></div>
+          <!-- END DETAIL PESANAN -->
+
+          <!-- START ADD QUESTION -->
+        <div class="question-add">
+            <div class="text-question">
+                <p>Butuh tambah lagi?</p>
+                <p>Kamu bisa tambah orderan dengan klik button di samping</p>
+            </div>
+            <button>
+                Tambah Menu Lain
+            </button>
+        </div>
+        <div class="line-header"></div>
+        <!-- END ADD QUESTION -->
+
+        <!-- START BUTTON CHECKOUT -->
+        <a href="Form-Input.html" class="button-pesanan">
+            <button class="pesanan-saya">
+                Checkout
+            </button>
+        </a>
+        <!-- END BUTTON CHECKOUT -->
+
+    </div>
+
+    <script src="script/quantity.js"></script>
+
+</body>
+</html>

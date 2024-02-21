@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B</title>
+    <link rel="stylesheet" href="Styles/home.css">
+    
+</head>
+<body>
+    <div class="container-retail">
+        <!-- START LOGO RETAIL DAN MARKETPLACE -->
+        <div class="logo-retail">
+            <div class="marketplace">
+                <img src="Assets/marketplace.png" alt="sandbox-marketplace">
+            </div>
+            <div class="retail">
+                <img src="Assets/retail.png" alt="sandbox-retail">
+            </div>
+        </div>
+        <!-- END LOGO RETAIL DAN MARKETPLACE -->
+
+        <!-- START HEADER RETAIL DAN MARKETPLACE -->
+        <div class="title-retail">
+            <p>selamat datang di </p>
+            <p>hoka hoka bento - miko mall</p>
+        </div>
+        <!-- END HEADER RETAIL DAN MARKETPLACE -->
+
+        <!-- START MENU ICON -->
+        <div class="card-icon">
+            <div class="menu-icons" onclick="show()">
+                <div class="img-icon">
+                    <img src="Assets/dine in.png" alt="">
+                </div>
+                <p>Santap di tempat</p>
+            </div>
+
+            <div class="menu-icons">
+                <div class="img-icon">
+                    <img src="Assets/bawa-pulang.png" alt="">
+                </div>
+                <p class="bawapulang">Bawa Pulang</p>
+            </div>
+        
+
+            <div class="menu-icons">
+                <div class="img-icon">
+                    <img src="Assets/pickup point.png" alt="">
+                </div>
+                <p>Terima di pickup point</p>
+            </div>
+
+            <!-- <div class="menu-icons">
+                <div class="img-icon">
+                    <img src="Assets/delivery.png" alt="">
+                </div>
+                <p>delivery</p>
+            </div> -->
+        </div>
+        <!-- END MENU ICON  -->
+
+         <!-- START BUTTON CHECKOUT -->
+         <a href="List-Pesanan.html" class="button-pesanan">
+            <button class="pesanan-saya">
+                Cek Pesanan Saya
+            </button>
+          </a>
+        <!-- END BUTTON CHECKOUT -->
+
+        <!-- START BOTTOM SHEET -->
+        <div onclick="hideOverlay()" id="overlay">
+            <div id="bottomSheet">
+               <div class="jumlah-orang">
+                    <p>Jumlah Orang</p>
+               </div>
+               <div class="line-bottom"></div>
+               <div class="input-person">
+                   <div class="title-input">
+                       <p>Masukan Jumlah Orang</p>
+                   </div>
+                   <div class="box-input">
+                       <input type="number" value="0">
+                   </div>
+               </div>
+
+               <a href="Choose-Table.html" class="next">
+                <button>
+                    Selanjutnya
+                </button>
+               </a>
+                
+            </div>   
+        </div> 
+        <!-- END BOTTOM SHEET -->
+
+        <!-- START FOOTER -->
+        <div class="logo-powered">
+            <div class="text-powered">
+                <p>Powered By</p>
+            </div>
+            <div class="img-powered">
+                <img src="Assets/powered by.png" alt="">
+            </div>
+        </div>
+        <!-- END FOOTER -->
+
+        <script src="script/home.js"></script>
+    </div>
+</body>
+</html>

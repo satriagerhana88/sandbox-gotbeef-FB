@@ -1,0 +1,310 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+/* START CONTAINER */
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 16px;
+}
+/* END CONTAINER */
+
+
+/* START HEADER */
+.header-retail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.header-retail .back{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 85%;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img-retail img{
+    width: 70px;
+    height: 70px;
+}
+
+.header-retail p{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0A2942;
+}
+/* END HEADER */
+
+
+/* START SEARCH */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-search{
+    height: 35px;
+    width: 330px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 0 5px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    border: 1px solid #FFC535;
+}
+
+.input-search input{
+    border: none;
+    width: 280px;
+    height: 30px;
+    outline: none;
+}
+
+.input-search input[type = 'text']{
+    padding: 0 10px;
+}
+
+.container-search{
+    width: 35px;
+    height: 35px;
+    background: #FFC535;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+/* END SEARCH */
+
+
+/* START BANNER */
+.banner-home{
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 130px;
+    margin: 20px 0 40px 0;
+}
+
+.next-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-1{
+    width: 10px;
+    height: 10px;
+    margin: 10px 2px 20px 2px;
+    border-radius: 50px;
+    background: #ccc;
+}
+
+.next-2{
+    width: 10px;
+    height: 10px;
+    margin: 10px 2px 20px 2px;
+    border-radius: 50px;
+    background: #FFC535;
+}
+/* END BANNER */
+
+/* START CARD KATEGORI */
+.text-categori{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-categori p {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.text-categori p:nth-child(2) {
+    color: #FFC535;
+    cursor: pointer;
+}
+
+.card-categori{
+    width: 100%;
+    height: 110px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+
+.card-categori a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.card{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    background: #fff;
+    margin: 0 5px;
+}
+
+.icon-card img{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.artikel-card p {
+    font-size: 12px;
+    color: #010101;
+    text-align: center;
+    margin-top: 15px;
+}
+/* START CARD KATEGORI */
+
+
+.card-produk{
+    display: flex;
+    margin: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+}
+
+.card-produk::-webkit-scrollbar{
+    width: 0px;
+}
+
+.produk-card{
+    width: 158px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.img-produk{
+    width: 158px;
+    height: 137px;
+}
+
+.img-produk img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.title-desc-produk{
+    width: 158px;
+    height: 60px;
+    padding-top: 5px;
+}
+
+.title-desc-produk p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    color: #010101;
+}
+
+.produk-card p{
+    font-size: 12px;
+    color: #999;
+}
+
+.rate-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    color: #010101;
+    font-weight: bold;
+}
+
+
+/* START BUTTON */
+
+.pesanan-saya{
+    height: 50px;
+    width: 320px;
+    background: #FFC535;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.cart-detail{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail p:nth-child(1){
+    font-size: 14px;
+    color: #010101;
+    font-weight: bold;
+}
+
+.detail p:nth-child(2){
+    font-size: 10px;
+    color: #5B5B5B;
+    margin-top: 2px;
+}
+
+.cart-price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #010101;
+}
+/* END BUTTON */
+

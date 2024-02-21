@@ -1,0 +1,234 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+/* START BANNER */
+.banner-header{
+  padding: 0;
+  margin: 0;
+  width: 360px;
+  height: 221px;
+  display: flex;
+  background-image: url('/Assets/icon/produk-blank-slate.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-banner{
+  padding: 10px;
+}
+/* END BANNER */
+
+
+/* START TITLE HEADER */
+.title-produk{
+    padding: 10px 24px;
+}
+
+.header-produk p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-produk p:nth-child(2){
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 4px;
+}
+/* END TITLE HEADER */
+
+/* START ADD ON */
+.title-addon{
+    width: 360px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    background: #FFC535;
+    margin-bottom: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 35px;
+  margin:0 24px 12px 24px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container p{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: -12px;
+  font-weight: 100;
+}
+  
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #FFC535;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 3px;
+  height: 6px;
+  border: solid #0A2942;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* END ADD ON */
+
+/* START NOTES */
+.title-addon p{
+  font-size: 12px;
+  margin-left: 24px;
+  color: #fff;
+}
+
+.box-note input{
+  width: 312px;
+  height: 68px;
+  margin: 0 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+  
+.box-note input::placeholder{
+  padding: 10px;
+}
+/* START NOTES */
+
+
+/* START QUANTITY */
+.quantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.quantity input{
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+/* END QUANTITY */
+
+
+.tambah{
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  background-color: #FFC535;
+  font-size: 15px;
+  margin-left: -15px;
+}
+
+/* START BUTTON PESANAN SAYA */
+.pesanan-saya{
+  height: 50px;
+  width: 320px;
+  background: #FFC535;
+  margin: 10px auto 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 8px 10px 0px #0000001F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.cart-detail{
+  display: flex;
+  justify-content: center;
+}
+
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail p:nth-child(1){
+  font-size: 14px;
+  color: #010101;
+  font-weight: bold;
+}
+
+.detail p:nth-child(2){
+  font-size: 10px;
+  color: #5B5B5B;
+  margin-top: 2px;
+}
+
+.cart-price{
+  font-size: 14px;
+  font-weight: bold;
+  color: #010101;
+}
+/* START BUTTON PESANAN SAYA */
+

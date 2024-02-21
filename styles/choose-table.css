@@ -1,0 +1,116 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+}
+
+/* START LOGO RETAIL DAN MARKETPLACE */
+.logo-retail{
+    width: 158px;
+    height: 76px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.marketplace, .retail{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+/* END LOGO RETAIL DAN MARKETPLACE */
+
+/* START HEADER RETAIL DAN MARKETPLACE */
+.title-retail p{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.title-retail {
+    margin-top: 15px;
+}
+/* END HEADER RETAIL DAN MARKETPLACE */
+
+/* START CHOOSE TABLE */
+.container-table{
+    width: 340px;
+    height: 314px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto 110px auto;
+}
+
+.table{
+    width: 90px;
+    height: 78px;
+    background-image: url(/Assets/table.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.table p{
+    margin-top: -8px;
+    font-weight: bold;
+    color: #010101;
+}
+
+.container-retail a{
+    text-decoration: none;
+}
+/* END CHOOSE TABLE */
+
+
+/* START FOOTER */
+.logo-powered{
+    margin: 70px auto 10px auto;
+    width: 174px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-powered{
+    margin: 0 10px;
+}
+
+.text-powered p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-powered{
+    width: 50px;
+    height: 30px;
+}
+/* END FOOTER */

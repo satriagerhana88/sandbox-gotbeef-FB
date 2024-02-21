@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Metode Pambayaran</title>
+    <link rel="stylesheet" href="styles/metode-pebayaran.css">
+</head>
+<body>
+    <div class="container-retail">
+        <!-- START HEADER -->
+        <div class="header-retail">
+            <div class="icon-close">
+                <a href="Detail-Kategori.html">
+                    <img src="Assets/icon/back.png" alt="">
+                </a>
+            </div>
+            <div class="text-header">
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
+        </div>
+        <div class="line-header"></div>
+        <!-- END HEADER -->
+
+        <!-- START SELECT PESANAN -->
+        <div class="pilih-pesanan">
+            <div class="jenis-pesanan">
+                <img src="Assets/icon/pesanan-antar.svg" alt="">
+                <p>Pesanan Antar</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <img src="Assets/icon/arrow-pilih-pesanan.svg" alt="">
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/pesanan-antar.svg" alt="">
+                             <p>Pesanan Antar</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/Terima-ditoko.svg" alt="">
+                             <p>Terima di Toko</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                    <a href="#">
+                        <div class="title-content-dropdown">
+                            <img src="Assets/icon/pickup point.svg" alt="">
+                             <p>Terima di pickup point</p>
+                        </div>
+                        <input type="radio">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- END SELECT PESANAN -->
+        
+        <div class="line"></div>
+
+        <!-- START CONTAINER DETAIL PESANAN -->
+        <div class="container-pilih-pesanan">
+            <button class="btn-alamat">
+                Ganti Alamat
+            </button>
+            <div class="detail-pilih-pesanan">
+                <img src="Assets/icon/maps.svg" alt="">
+                <div class="alamat">
+                    <div class="title-alamat">
+                        <p>Alamat Pengiriman</p>
+                        <button>Utama</button>
+                    </div>
+                    <div class="alamat-lengkap">
+                        <p>Hindami (081313129535) Jalan. Margakencana 1 (Margawangi Selatan II) No. 159, Margacinta, Kota Bandung</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END CONTAINER DETAIL PESANAN -->
+
+        <!-- START PENGIRIMAN INSTANT -->
+        <div class="container-pengiriman-instant">
+            <p>Pengiriman Instant</p>
+            <div class="pengiriman-instant">
+                <div class="pilih-pengiriman">
+                    <input type="checkbox">
+                    <img src="Assets/icon/grab.png" alt="">
+                </div>
+                <div class="pilih-pengiriman">
+                    <input type="checkbox">
+                    <img src="Assets/icon/gojek.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- END PENGIRIMAN INSTANT -->
+
+        <!-- START CONTAINER DETAIL PESANAN -->
+        <div class="container-detail-pesanan">
+            <div class="line"></div>
+            <div class="title-pesanan">
+                <p>Pesanan Saya</p>
+            </div>
+
+            <div class="detail-pesanan">
+                <div class="title-detail-pesanan">
+                    <p>Got Beef</p>
+                </div>
+
+                <div class="order">
+                    <div class="title-order">
+                        <p>The OG Got Beef</p>
+                        <p>Extra Patty</p>
+                        <p>Mashed Potato</p>
+                        <p>Cola</p>
+                    </div>
+                    <div class="harga-order">
+                        <p>Rp. 75.000,-</p>
+                        <div class="quantity">
+                            <button class="tambah" onclick="increment()">+</button>
+                            <input id=jumlah type=number min=0 max=100 value="0">
+                            <button class="tambah" onclick="decrement()">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="order">
+                    <div class="title-order">
+                        <p>Supreme Burger</p>
+                    </div>
+                    <div class="harga-order">
+                        <div class="harga">
+                            <p>Rp. 115.000,-</p>
+                            <s>Rp. 134.200,-</s>
+                        </div>
+                        <div class="quantity">
+                            <button class="tambah" onclick="increment()">+</button>
+                            <input id=jumlah type=number min=0 max=100 value="0">
+                            <button class="tambah" onclick="decrement()">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-pesanan">
+                <div class="title-detail-pesanan">
+                    <p>Ayam Berbakar</p>
+                </div>
+
+                <div class="order">
+                    <div class="title-order">
+                        <p>Paket Ayam Bakar 1</p>
+                    </div>
+                    <div class="harga-order">
+                        <div class="harga">
+                            <p>Rp. 35.000,-</p>
+                            <!-- <s>Rp. 134.200,-</s> -->
+                        </div>
+                        <div class="quantity">
+                            <button class="tambah" onclick="increment()">+</button>
+                            <input id=jumlah type=number min=0 max=100 value="0">
+                            <button class="tambah" onclick="decrement()">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-pesanan">
+                <div class="title-detail-pesanan">
+                    <p>Pembayaran</p>
+                </div>
+
+                <div class="order">
+                    <div class="title-order">
+                        <p>Order Fee</p>
+                        <p>Tax & Services</p>
+                        <p>Total</p>
+                    </div>
+                    <div class="harga-order">
+                        <div class="harga">
+                            <p>Rp. 10.000,-</p>
+                            <p>Rp. 10.000,-</p>
+                            <p>Rp. 265.000,-</p>
+                            <!-- <s>Rp. 134.200,-</s> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-pesanan">
+                <div class="title-detail-pesanan">
+                    <p>Gunakan 100.000 Points (-Rp 100.000)</p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+
+                <div class="order">
+                    <div class="title-order">
+                        <p>Total Harga</p>
+                    </div>
+                    <div class="harga-order">
+                        <div class="harga">
+                            <p>Rp. 265.000,-</p>
+                            <!-- <s>Rp. 134.200,-</s> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END CONTAINER DETAIL PESANAN -->
+
+        <div class="line"></div>
+
+        <!-- START METODE PEMBAYARAN -->
+        <div class="container-metode-pembayaran">
+            <div class="pilih-metode">
+                <p>Metode Pembayaran</p>
+                <button class="btn-pilih" onclick="show()">Pilih</button>
+            </div>
+            <div class="selected-metode">
+                <img src="Assets/icon/icon-bri.svg" alt="">
+                <p>Virtual Account BRI</p>
+            </div>
+            <button class="btn-pesan" onclick="pesan()">Pesan</button>
+        </div>
+        <!-- END METODE PEMBAYARAN -->
+    </div>
+
+    <!-- START BOTTOM SHEET -->
+    <div  id="overlay">
+        <div id="bottomSheet">
+            <div class="title-bottom">
+                <p>Metode Pemabayaran</p>
+                <span onclick="hideOverlay()"><img src="Assets/icon/close.png" alt=""></span>
+            </div>
+
+            <div class="container-payment">
+                <div class="select-payment" onclick="{show2(), hideOverlay()}">
+                    <div class="card">
+                        <img src="Assets/icon/icon-va.svg" alt="">
+                        <p>Virtual Account</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment">
+                    <div class="card">
+                        <img src="Assets/icon/icon-ewallet.svg" alt="">
+                        <p>E-Wallet</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment">
+                    <div class="card">
+                        <img src="Assets/icon/icon-debit.svg" alt="">
+                        <p>Debit</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment" onclick="hideOverlay()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-qris.svg" alt="">
+                        <p>QR Code</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment">
+                    <div class="card">
+                        <img src="Assets/icon/icon-paylater.svg" alt="">
+                        <p>Paylater</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment">
+                    <div class="card">
+                        <img src="Assets/icon/icon-retail-outlet.svg" alt="">
+                        <p>Retail Outlet</p>
+                    </div>
+                    <input type="radio">
+                </div>
+            </div>
+        </div>   
+    </div> 
+    <!-- END BOTTOM SHEET -->
+
+
+
+    <!-- START BOTTOM SHEET -->
+    <div  id="overlay2">
+        <div id="bottomSheet2">
+            <div class="title-bottom">
+                <p>Pilih Bank Virtual Account</p>
+                <span onclick="hideOverlay2()"><img src="Assets/icon/close.png" alt=""></span>
+            </div>
+
+            <div class="container-payment">
+                <div class="select-payment" onclick="hideOverlay2()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-bni.svg" alt="">
+                        <p>Bank Negara Indonesia</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment" onclick="hideOverlay2()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-mandiri.svg" alt="">
+                        <p>Bank Mandiri</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment" onclick="hideOverlay2()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-permata.svg" alt="">
+                        <p>Bank Permata</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment" onclick="hideOverlay()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-bss.svg" alt="">
+                        <p>Bank Sahabat Sampoerna</p>
+                    </div>
+                    <input type="radio">
+                </div>
+                <div class="select-payment" onclick="hideOverlay2()">
+                    <div class="card">
+                        <img src="Assets/icon/icon-bri.svg" alt="">
+                        <p>Bank Rakyat Indonesia</p>
+                    </div>
+                    <input type="radio">
+                </div>
+            </div>
+            
+        </div> 
+    </div>   
+    <!-- END BOTTOM SHEET -->
+
+<script src="script/metode-pembayaran.js"></script>
+
+<script>
+     function pesan() {
+            window.location.replace('/Notifikasi-Sukses.html')
+        }
+</script>
+</body>
+</html>

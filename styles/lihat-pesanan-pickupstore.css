@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+/* START HEADER */
+.header-retail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-close{
+    cursor: pointer;
+}
+
+.text-header p{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.line-header{
+    width: 359px;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.text-order{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px 10px;
+}
+/* END HEADER */
+
+
+/* START DETAIL PESANAN */
+.title-pesanan-saya{
+    width: 360px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    background: #FFC535;
+    margin-bottom: 25px;
+}
+
+.title-pesanan-saya p{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.produk-pesanan{
+    height: 360px;
+    height: 80px;
+}
+
+.detail-pesanan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.detail-pesanan p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.produk-pesanan .quantity{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 27px;
+}
+
+.produk-pesanan .quantity input{
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tambah{
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: #FFC535;
+    font-size: 10px;
+    margin-left: -15px;
+}
+/* END DETAIL PESANAN */
+
+/* START ADD QUESTION */
+.question-add{
+    width: 332px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text-question{
+    width: 197px;
+    height: 55px;
+}
+
+.text-question p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-question p:nth-child(2){
+    font-size: 12px;
+    font-weight: 100;
+    color: #838383;
+}
+
+.question-add button{
+    width: 125px;
+    height: 64px;
+    background-color: #FFC535;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+}
+/* END ADD QUESTION */
+
+/* START BUTTON CHECKOUT */
+.pesanan-saya{
+    height: 50px;
+    width: 340px;
+    background: #FFC535;
+    margin: 10px auto 10px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.button-pesanan{
+    text-decoration: none;
+}
+/* END BUTTON CHECKOUT */
+

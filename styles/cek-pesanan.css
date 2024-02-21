@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/d-din');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* START CONTAINER */
+.container-retail{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+}
+
+/* END CONTAINER */
+
+/* START HEADER */
+.img-pesanan-saya{
+    width: 220px;
+    height: 205px;
+    margin: 60px auto 50px auto;
+    /* border: 1px solid red; */
+}
+/* END HEADER */
+
+/* START INPUT PESANAN SAYA */
+.title-pesanan p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.input-order{
+    margin: 40px auto;
+    padding: 0 10px;
+}
+
+.input-order label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-order input{
+    width: 330px;
+    height: 45px;
+    border: 1px solid #D4D8DD;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.input-order input[type=text]{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.input-order input::placeholder{
+    text-transform: lowercase;
+}
+/* END INPUT PESANAN SAYA */
+
+/* START BUTTON PESANAN */
+.pesanan-saya{
+    height: 50px;
+    width: 340px;
+    margin: 15px auto;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 0px #0000001F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.cek{
+    background: #FFC535;
+    color: #fff;
+    border: none;
+}
+
+.kembali{
+    border: 1px solid #FFC535;
+    background-color: #fff;
+    color: #FFC535;
+}
+.button-pesanan{
+    text-decoration: none;
+}
+/* END BUTTON PESANAN */
+
+
+
+
+
+
+
+
+/* START FOOTER */
+.logo-powered{
+    margin: 70px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END FOOTER */

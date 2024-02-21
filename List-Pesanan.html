@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B - Cek Pesanan Saya</title>
+    <link rel="stylesheet" href="styles/list-pesanan.css">
+</head>
+<body>
+    <!-- STRAT CONTAINER -->
+    <div class="container-retail">
+        <div class="header">
+            <div class="container-header">
+                <img src="assets/icon/back.png" alt="" onclick="back()">
+                <p>List Pesanan</p>
+            </div>
+        </div>  
+        
+        <div class="menu-filter">
+            <div class="button-filter">
+                <button>Semua</button>
+                <button class="button-outline">Pending</button>
+                <button class="button-outline">Baru</button>
+                <button class="button-outline">Proses</button>
+                <button class="button-outline">Siap Pickup</button>
+                <button class="button-outline">Dikirim</button>
+                <button class="button-outline">Selesai</button>
+                <button class="button-outline">Batal</button>
+            </div>
+        </div>
+
+        <div class="container-card">
+            <div class="card" id="card-1">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard1()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Pending</div>
+                            <div class="jenis-pesanan">Antar Pesanan</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Pending.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/strawbeery.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Strawberry Sweetheart 250 gram</p>
+                           <p>1 Barang</p>
+                           <p>Rp. 75.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card" id="card-2">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard2()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Baru</div>
+                            <div class="jenis-pesanan">Bawa Pulang</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Baru.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/backpack.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Almost Dark Olive Navy Backpack</p>
+                           <p>1 Barang, (+1 Produk lainnya)</p>
+                           <p>Rp. 245.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card" id="card-3">
+                 <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard3()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Proses</div>
+                            <div class="jenis-pesanan">Terima Ditoko</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Proses.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/burger.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Wagyu Cheesee Burger - 100g</p>
+                           <p>1 Barang</p>
+                           <p>Rp. 50.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="card" id="card-4">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard4()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Siap Pickup</div>
+                            <div class="jenis-pesanan">Pickup Point</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Pickup.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/nasgor.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Fried chicken with rice dish</p>
+                           <p>1 Barang, (+2 Produk lainnya)</p>
+                           <p>Rp. 125.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card" id="card-5">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard5()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Dikirim</div>
+                            <div class="jenis-pesanan">Bawa Pulang</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Dikirim.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/sepatu.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Sneakers Shoe Air Jordan Nike</p>
+                           <p>1 Barang</p>
+                           <p>Rp. 1.525.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card" id="card-6">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard6()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Batal</div>
+                            <div class="jenis-pesanan">Bawa Pulang</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Batal.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/oven.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Microwave Ovens Bishkek Kitchen</p>
+                           <p>1 Barang</p>
+                           <p>Rp. 2.525.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="card" id="card-7">
+                <div class="dropdown">
+                    <div class="button-setting">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="dropdown-content">
+                        <button onclick="functionCard7()">
+                            <img src="assets/icon/delete.png" alt="">
+                            Hapus
+                        </button>
+                    </div>
+                  </div>
+                <div class="section-list-pesanan">
+                    <div class="title-pesanan">
+                        <div class="detail-title-pesanan">
+                            <div class="status-pesanan">Selesai</div>
+                            <div class="jenis-pesanan">Bawa Pulang</div>
+                            <div class="tanggal-pesanan">Jum'at, 02 Des 2022 - 12:00:00</div>
+                        </div>
+                        <div class="icon-title-pesanan">
+                            <img src="assets/icon/Selesai.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="line-list-pesanan"></div>
+
+                    <div class="fill-pesanan">
+                        <div class="img-fill-pesanan">
+                            <img src="assets/cheetos.png" alt="">
+                        </div>
+
+                        <div class="title-fill-pesanan">
+                           <p>Cheetos crunchy party</p>
+                           <p>1 Barang, (+4 Produk lainnya)</p>
+                           <p>Rp. 75.000</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+
+    <script>
+        function back(){
+            window.location.replace('./Home.html')
+        }
+
+        function functionCard1() {
+          const element = document.getElementById("card-1");
+          element.remove();
+        }
+        function functionCard2() {
+          const element = document.getElementById("card-2");
+          element.remove();
+        }
+        function functionCard3() {
+          const element = document.getElementById("card-3");
+          element.remove();
+        }
+        function functionCard4() {
+          const element = document.getElementById("card-4");
+          element.remove();
+        }
+        function functionCard5() {
+          const element = document.getElementById("card-5");
+          element.remove();
+        }
+        function functionCard6() {
+          const element = document.getElementById("card-6");
+          element.remove();
+        }
+        function functionCard7() {
+          const element = document.getElementById("card-7");
+          element.remove();
+        }
+    </script>
+
+</body>
+</html>
